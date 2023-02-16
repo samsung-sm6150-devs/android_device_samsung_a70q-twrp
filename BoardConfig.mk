@@ -79,5 +79,9 @@ TARGET_COPY_OUT_ODM := vendor/odm
 TARGET_COPY_OUT_PRODUCT := system/product
 TARGET_COPY_OUT_VENDOR := vendor
 
+# Platform
+TARGET_BOARD_PLATFORM := sm6150
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno612
+
 # Security Patch Level
 VENDOR_SECURITY_PATCH := 2020-01-01
