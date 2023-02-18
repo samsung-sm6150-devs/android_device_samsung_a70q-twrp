@@ -5,6 +5,8 @@
 /recovery	emmc	/dev/block/bootdevice/by-name/recovery					flags=backup=1
 /system_root	ext4	/dev/block/bootdevice/by-name/system
 /system_image	emmc	/dev/block/bootdevice/by-name/system
+/product	ext4	/dev/block/bootdevice/by-name/product					flags=backup=1;wipeingui
+/product_image	emmc	/dev/block/bootdevice/by-name/product					flags=backup=1
 /vendor		ext4	/dev/block/bootdevice/by-name/vendor					flags=backup=1;wipeingui
 /vendor_image	emmc	/dev/block/bootdevice/by-name/vendor					flags=backup=1
 /data		ext4	/dev/block/bootdevice/by-name/userdata					flags=encryptable=footer;length=-16384
