@@ -108,7 +108,6 @@ TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 TW_INCLUDE_CRYPTO := false
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_INCLUDE_FBE := true
-TW_EXCLUDE_MTP := true
 TW_EXCLUDE_SUPERSU := true
 TW_EXTRA_LANGUAGES := true
 TW_HAS_DOWNLOAD_MODE := true

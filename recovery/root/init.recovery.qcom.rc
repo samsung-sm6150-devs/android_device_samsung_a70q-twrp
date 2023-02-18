@@ -6,6 +6,3 @@ on fs
 
 on boot
     setprop sys.usb.config adb
-
-on init
-    setprop ro.boot.vbmeta.avb_version ${ro.boot.avb_version}
